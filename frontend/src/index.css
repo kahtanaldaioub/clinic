@@ -16,10 +16,13 @@
         @apply bg-primaryColor text-white px-[35px] py-[15px] rounded-[50px] font-[600] mt-[38px]
     }
     .heading {
-        @apply text-[44px] landing-[54px] font-[700] text-headingColor 
+        @apply text-[44px] leading-[54px] font-[700] text-headingColor 
     }
     .text__para{
         @apply text-[18px] leading-[30px] text-textColor font-[400] mt-[18px]
+    }
+    .header{
+        @apply bg-[url("./assets/images/mask.png")] bg-no-repeat  bg-center bg-cover w-full h-[100px] leading-[100px]
     }
 }
 
@@ -45,3 +48,12 @@
             @apply text-[16px] leading-7 mt-3
         }
     } }
+
+
+
+
+
+
+
+
+    

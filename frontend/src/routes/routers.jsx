@@ -6,10 +6,10 @@ import Signup from '../pages/Signup'
 import Contact from '../pages/Contact'
 import Doctors from '../pages/Doctors/Doctors'
 import DoctorDetails from '../pages/Doctors/DoctorDetails'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 export default function routers() {
   return (
-    <Router>
+    
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
@@ -20,6 +20,6 @@ export default function routers() {
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/doctors/:id' element={<DoctorDetails />} />
       </Routes>
-    </Router>
+    
   )
 }
