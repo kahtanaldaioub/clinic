@@ -5,6 +5,8 @@ import Hero from '../components/Hero'
 import Services from '../components/Services/Services'
 import Feature from '../components/Feature'
 import Doctors from '../components/Doctors/Doctors'
+import Faq from '../components/Faq/faq'
+import Testimonial from '../components/Testimonial/Testimonial'
 export default function Home() {
   return (
     <>
@@ -13,6 +15,8 @@ export default function Home() {
           <Services />
           <Feature />
           <Doctors />
+          <Faq />
+          <Testimonial />
     </>
   )
 }

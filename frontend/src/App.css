@@ -10,6 +10,48 @@
 body {
   font-family: "Manrope", sans-serif;
 }
+/* Swiper Pagination Styles */
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border: 1px solid #181a1e !important;
+  background: #fff !important;
+  opacity: 1 !important;
+  display: block !important;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background: #01B5C5 !important;
+  border-color: #01B5C5 !important;
+}
+
+/* Make sure swiper container has relative positioning */
+.swiper {
+  padding-bottom: 70px !important;
+}
+.swiper-slide.swiper-slide-next {
+  background: #01B5C5;
+  border-radius: 12px;
+  box-shadow: 0px 20px 70px rgba(0, 103, 255, 0.3);
+} 
+
+.swiper-slide.swiper-slide-next h4,
+.swiper-slide.swiper-slide-next p {
+  margin-left: 10px;
+  color: #fff !important;
+}
+
+
 
 
 .sticky__header {
