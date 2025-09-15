@@ -3,6 +3,7 @@ import doctorImg from '../../assets/images/doctor-img02.png'
 import {HiStar} from 'react-icons/hi'
 import DoctorFeedback from './DoctorFeedback'
 import DoctorAbout from './DoctorAbout'
+import SidePanel from './SidePanel'
 
 export default function DoctorDetails() {
   const [tab, setTab] = useState('about')
@@ -66,7 +67,7 @@ export default function DoctorDetails() {
           </div>
           
           <div className=''>
-           
+           <SidePanel />
           </div>
         </div>
       </div>
