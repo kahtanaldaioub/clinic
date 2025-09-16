@@ -11,7 +11,7 @@ const socialLinks = [
 ]
 const footerLinks1 = [
   {name: 'Home', path: '/'},
-  {name: 'About', path: '/about'},
+  {name: 'Doctors', path: '/doctors'},
   {name: 'Services', path: '/services'},
   {name: 'Contact', path: '/contact'},
 ]
@@ -35,7 +35,7 @@ export default function Footer() {
       <div className='container mx-auto px-4'>
         <div className='flex flex-col md:flex-row justify-between mb-8'>
           <div className='mb-6 md:mb-0'>
-            <h2 className='text-2xl font-bold mb-4 text-headingColor'>Your Company</h2>
+            <h2 className='text-2xl font-bold mb-4 text-headingColor relative pl-[22px]'><span className='text-primaryColor text-[45px] font-bold absolute bottom-0 left-0'>+</span>Jableh Clinic</h2>
             <p className='text-gray-400'>Helping every patinets is our goal and dream.</p>
             <div className='flex space-x-4 mt-4'>
               {socialLinks.map((link, index) => (
@@ -51,7 +51,7 @@ export default function Footer() {
               <ul>
                 {footerLinks1.map((link, index) => (
                   <li key={index} className='mb-2'>
-                    <Link href={link.path} className='text-gray-400 hover:text-primaryColor'>{link.name}</Link>
+                    <Link to={link.path} className='text-gray-400 hover:text-primaryColor'>{link.name}</Link>
                   </li>
                 ))}
               </ul>
@@ -61,7 +61,7 @@ export default function Footer() {
               <ul>
                 {footerLinks2.map((link, index) => (  
                   <li key={index} className='mb-2'>   
-                    <Link href={link.path} className='text-gray-400 hover:text-primaryColor'>{link.name}</Link>
+                    <Link to={link.path} className='text-gray-400 hover:text-primaryColor'>{link.name}</Link>
                   </li>
                 ))} 
               </ul>
@@ -71,7 +71,7 @@ export default function Footer() {
               <ul>
                 {footerLinks3.map((link, index) => (  
                   <li key={index} className='mb-2'>   
-                    <Link href={link.path} className='text-gray-400 hover:text-primaryColor'>{link.name}</Link>
+                    <Link to={link.path} className='text-gray-400 hover:text-primaryColor'>{link.name}</Link>
                   </li>
                 ))} 
               </ul>

@@ -1,5 +1,4 @@
 import { react , useEffect ,useRef} from 'react'
-import logo from '../assets/images/logo.png'
 import { NavLink , Link } from 'react-router-dom'
 import userImg from '../assets/images/avatar-icon.png'
 import{BiMenu} from 'react-icons/bi'
@@ -31,8 +30,8 @@ export default function Header() {
       <div className="container">
       <div className='flex items-center justify-between'>
         {/*-------logo-------  */}
-        <div>
-          <img src={logo} alt="logo" />
+        <div className='text-2xl font-bold text-headingColor flex items-center '>
+         <span className='text-primaryColor text-[50px] font-bold'>+</span>Jableh Clinic
         </div>
         {/*-------menu-------  */}
         <div className='navigation' ref={menuRef} onClick={toggleMenu}>

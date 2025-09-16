@@ -10,15 +10,14 @@ import icon03 from '../assets/images/icon03.png'
 export default function Hero() {
   return (
     <>
-        <section className='hero__section pt-[60px] 2xl:h-[800px]'>
+        <section className='hero__section pt-[60px] 2xl:h-[800px] mt-0'>
           <div className="container">
             <div className=" flex flex-col lg:flex-row gap-[90px] items-center justify-between">
               {/* -------hero content--------- */}
               <div>
                 <div className='lg:w-[570px]'>
                   <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] lg:mb-[12px] md:text-[60px] md:leading[70px] '>we help patinets live a healthy , longer life</h1>
-                  <p className='text__para'>  Nihil ipsa molestiae molestias obcaecati dicta saepe commodi deleniti facere ??</p>
-                  <p className='hidden lg:flex text__para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem laboriosam autem minima quod eaque omnis beatae quaerat aut, nam impedit porro molestias vitae ut tempore repellat officiis nihil repellendus! Consequatur.</p>
+                  <p className='text__para'> Welcome to <span className='text-primaryColor'>Jableh Clinic</span>, a trusted haven for health and well-being in the heart of Jableh. For generations, our community has stood strong, and we are honored to be a part of your family's story. Our dedicated team of healthcare professionals is committed to providing you with compassionate, comprehensive medical care using modern practices, all within a environment of comfort and respect. Your health is our priority. Together, we build a healthier, brighter future for Jableh. </p>
                   <button className='btn'>Request an Appointment</button>
                 </div>
                 {/* -------hero counter------- */}
@@ -64,7 +63,7 @@ export default function Hero() {
                   <div className='flex items-center justify-center'> <img src={icon01} alt="" /></div>
                 <div className='mt-[20px]'>
                   <h2 className='text-[22px] font-[600] text-headingColor mb-[10px] text-center'>Expert Doctors</h2>
-                  <p className='text__para text-center'>Nihil ipsa molestiae molestias obcaecati dicta saepe commodi deleniti facere ??</p>
+                  <p className='text__para text-center'>Our physicians bring years of experience and advanced expertise to every consultation, ensuring you receive world-class care right here in our community.</p>
                   <Link to='/doctors' 
                   className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
                    flex items-center justify-center group hover:bg-primaryColor hover:border-none">
@@ -76,7 +75,7 @@ export default function Hero() {
                   <div className='flex items-center justify-center'> <img src={icon02} alt="" /></div>
                 <div className='mt-[20px]'>
                   <h2 className='text-[22px] font-[600] text-headingColor mb-[10px] text-center'>Quality Services</h2>
-                  <p className='text__para text-center'>Nihil ipsa molestiae molestias obcaecati dicta saepe commodi deleniti facere ??</p>
+                  <p className='text__para text-center'>Delivering exceptional medical care across a spectrum of specialties. Your well-being is our focus, ensured through precision, and a personal touch.</p>
                   <Link to='/sevices' 
                   className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
                    flex items-center justify-center group hover:bg-primaryColor hover:border-none">
@@ -88,7 +87,7 @@ export default function Hero() {
                   <div className='flex items-center justify-center'> <img src={icon03} alt="" /></div>
                 <div className='mt-[20px]'>
                   <h2 className='text-[22px] font-[600] text-headingColor mb-[10px] text-center'>Affordable Prices</h2>
-                  <p className='text__para text-center'>Nihil ipsa molestiae molestias obcaecati dicta saepe commodi deleniti facere ??</p> 
+                  <p className='text__para text-center'>We believe everyone deserves access to quality healthcare. Our services are priced fairly and transparently, with your well-being as our primary focus.</p> 
                   <Link to='/doctors' 
                   className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto
                    flex items-center justify-center group hover:bg-primaryColor hover:border-none">

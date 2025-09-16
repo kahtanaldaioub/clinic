@@ -25,10 +25,16 @@
         @apply bg-[url("./assets/images/mask.png")] bg-no-repeat  bg-center bg-cover w-full h-[100px] leading-[100px]
     }
     .hero__section{
-        @apply bg-[url("./assets/images/hero-bg.png")] bg-no-repeat  bg-center bg-cover w-full h-[600px] flex items-center
+        @apply bg-[url("./assets/images/hero-bg.png")] bg-no-repeat  bg-center bg-cover w-full h-[600px] flex items-center mt-0 
     }
     .footer{
        @apply bg-[url("./assets/images/hero-bg.png")] bg-no-repeat  bg-center bg-cover w-full h-[320px]
+    }
+    .form__input{
+        @apply w-full p-3 border border-solid border-[#0066ff61] rounded-md focus:outline-none focus:border-primaryColor text-[16px]  leading-7 text-textColor cursor-pointer 
+    }
+    .form__label{
+        @apply text-textColor font-semibold text-[16px] mb-2 leading-7
     }
 }
 
