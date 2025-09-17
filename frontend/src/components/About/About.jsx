@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import aboutImg from '../../assets/images/about.png'
-import abutCardImg from '../../assets/images/about-card.png'
 export default function About() {
   return (
     <section>

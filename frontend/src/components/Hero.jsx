@@ -10,7 +10,7 @@ import icon03 from '../assets/images/icon03.png'
 export default function Hero() {
   return (
     <>
-        <section className='hero__section pt-[60px] 2xl:h-[800px] mt-0'>
+        <section className='hero__section pt-[60px] 2xl:h-[800px]'>
           <div className="container">
             <div className=" flex flex-col lg:flex-row gap-[90px] items-center justify-between">
               {/* -------hero content--------- */}
